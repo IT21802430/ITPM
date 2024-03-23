@@ -1,0 +1,22 @@
+.header {
+    position: fixed;  /* Make the header fixed to the top */
+    top: 0;  /* Position at the top of the viewport */
+    left: 0;  /* Position at the left of the viewport */
+    width: 100vw;
+    background-color: #77838f; /* Change background color as desired */
+    padding: 10px 20px;
+    display: flex; /* Makes elements display inline */
+    justify-content:flex-end; /* Space items evenly */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .header > * {
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 16px; /* Padding for links */
+  }
+  
+  .header > *:hover {
+    background-color: #ddd; /* Hover effect background color */
+  }
+  

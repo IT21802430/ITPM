@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100vh; /* Using vh for viewport height */
+    width: 100px; /* Adjust width as needed */
+    background-color: #343a40; /* Change background color */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    overflow-y: auto;
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .sidebar > * {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    text-decoration: none;
+    color: inherit; /* Inherit text color from sidebar */
+    transition: background-color 0.2s ease-in-out; /* Add hover transition */
+  }
+  
+  .sidebar > *:hover {
+    background-color: #292d36; /* Hover background color */
+  }
+  
